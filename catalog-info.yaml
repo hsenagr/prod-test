@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: prod-test
+  description: Python app that displays time - named prod-test
+  annotations:
+    github.com/project-slug: hsenagr/prod-test
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
